@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+main{
+    min-height: 400px;
+
+}
+
+footer{
+    background-color: rgb(127, 128, 186);
+    min-height: 500px;
+    
+
+}
+
+.obrazky{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+   
+    
+
+}
+
+
+svg{
+    transition: .3s ease;
+    fill: white;
+}
+
+svg:hover{
+    fill: red;
+
+}
+
+
+.hkt{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+
+    
+}
+
+
+li{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none
+    
+    
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
